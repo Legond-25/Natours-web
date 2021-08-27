@@ -69,7 +69,7 @@ body {
       padding: 0; } }
 
 ::selection {
-  background-color: black;
+  background-color: #55c57a;
   color: #fff; }
 
 body {
@@ -219,10 +219,10 @@ body {
     .btn--white::after {
       background-color: #fff; }
   .btn--green {
-    background-color: black;
+    background-color: #55c57a;
     color: #fff; }
     .btn--green::after {
-      background-color: black; }
+      background-color: #55c57a; }
   .btn::after {
     content: "";
     display: inline-block;
@@ -240,24 +240,24 @@ body {
 
 .btn-text:link {
   font-size: 1.6rem;
-  color: black;
+  color: #55c57a;
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #55c57a;
   padding: 5px;
   transition: all 0.2s; }
 
 .btn-text:visited {
   font-size: 1.6rem;
-  color: black;
+  color: #55c57a;
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #55c57a;
   padding: 5px;
   transition: all 0.2s; }
 
 .btn-text:hover {
-  background-color: black;
+  background-color: #55c57a;
   color: #fff;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(-2px); }
@@ -441,7 +441,7 @@ body {
           left: 0;
           transform: scale(1.1); } }
     .composition__photo:hover {
-      outline: 1.5rem solid black;
+      outline: 1.5rem solid #55c57a;
       transform: scale(1.05) translateY(-0.5px);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 20; }
@@ -494,7 +494,7 @@ body {
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
-    border-bottom: 3px solid black; }
+    border-bottom: 3px solid #55c57a; }
     .form__input:focus:invalid {
       border-bottom: 3px solid #ff7730; }
   .form__input::-webkit-input-placeholder {
@@ -533,7 +533,7 @@ body {
 .form__radio-button {
   width: 3rem;
   height: 3rem;
-  border: 5px solid black;
+  border: 5px solid #55c57a;
   border-radius: 50%;
   display: inline-block;
   position: absolute;
@@ -549,7 +549,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: black;
+    background-color: #55c57a;
     opacity: 0;
     transition: opacity 0.2s; }
 
@@ -660,7 +660,7 @@ body {
     display: inline-block;
     line-height: 1; }
   .popup__close:hover, .popup__close:active {
-    color: black; }
+    color: #55c57a; }
 
 .story {
   width: 75%;
@@ -764,7 +764,7 @@ body {
     display: inline-block;
     transition: all 0.2s; }
   .footer__link:hover, .footer__link:active {
-    color: black;
+    color: #55c57a;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
     transform: rotate(5deg) scale(1.3); }
   .footer__copyright {
