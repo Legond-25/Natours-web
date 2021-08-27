@@ -492,7 +492,7 @@ $breakpoint argument choices:
   box-sizing: inherit; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 100%; }
   @media only screen and (max-width: 1200px) {
     html {
       font-size: 56.25%; } }
